@@ -1,0 +1,42 @@
+:root {
+    --text-color: black; /* Override primary color */
+    --background-color: #6c757d; 
+    --bs-success: #28a745; /* Override success color */
+  }
+  
+
+#footerSection {
+    background-color: gray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#footerHR {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color)
+}
+
+#footerLeft {
+    width: 35%;
+}
+
+#footerRight {
+    margin-top: 15px;
+}
+
+#footerRights {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
