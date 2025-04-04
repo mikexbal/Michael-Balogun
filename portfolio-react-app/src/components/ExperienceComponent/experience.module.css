@@ -1,3 +1,60 @@
 #experienceContainer {
     background-color: plum;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#experienceCard {
+    margin: 100px;
+    background-color: #0E1111;
+    color: #3B444B;
+    height: 225px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+#experienceHeader {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#experienceBadge {
+    margin-top: 15px;
+    background-color: #d7ffe0 !important;
+    color: #018c0f;
+    width: auto;
+    height: 20px;
+}
+
+#experienceName {
+
+}
+
+#experienceBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #3B444B;
+}
+
+.experienceButton {
+    background-color: #3B444B;
+
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 20px;
 }
