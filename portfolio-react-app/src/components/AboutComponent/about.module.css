@@ -1,3 +1,24 @@
 #aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: orange;
+    padding-left: 110px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#bioContainer {
+    font-size: 20px;
+    width: 55%;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-left: 50px;
+    line-height: 1.75;
+}
+
+#imageContainer img{
+    height: 350px;
+    border-radius: 10px;
+    box-shadow:0 10px 16px 0
 }
