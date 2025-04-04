@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Michael-Balogun/static/css/main.d3f902c3.css",
-    "main.js": "/Michael-Balogun/static/js/main.de0f59c3.js",
+    "main.css": "/Michael-Balogun/static/css/main.0dc13989.css",
+    "main.js": "/Michael-Balogun/static/js/main.b2f3109a.js",
     "static/js/453.cc683603.chunk.js": "/Michael-Balogun/static/js/453.cc683603.chunk.js",
     "static/media/bootstrap-icons.woff?": "/Michael-Balogun/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Michael-Balogun/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/logo.svg": "/Michael-Balogun/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Michael-Balogun/index.html",
-    "main.d3f902c3.css.map": "/Michael-Balogun/static/css/main.d3f902c3.css.map",
-    "main.de0f59c3.js.map": "/Michael-Balogun/static/js/main.de0f59c3.js.map",
+    "main.0dc13989.css.map": "/Michael-Balogun/static/css/main.0dc13989.css.map",
+    "main.b2f3109a.js.map": "/Michael-Balogun/static/js/main.b2f3109a.js.map",
     "453.cc683603.chunk.js.map": "/Michael-Balogun/static/js/453.cc683603.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3f902c3.css",
-    "static/js/main.de0f59c3.js"
+    "static/css/main.0dc13989.css",
+    "static/js/main.b2f3109a.js"
   ]
 }
