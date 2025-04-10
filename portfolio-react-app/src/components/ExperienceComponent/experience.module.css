@@ -1,60 +1,50 @@
-#experienceContainer {
-    background-color: plum;
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+#experience {
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 #experienceCard {
-    margin: 100px;
-    background-color: #0E1111;
-    color: #3B444B;
-    height: 225px;
-    width: 600px;
+    background-color: #BFBEB9;
+    width: 700px;
+    padding: 20px;
+    justify-self: center;
     border-radius: 15px;
+
+    margin-top: 100px;
 }
 
 #experienceHeader {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    
 }
 
-#experienceBadge {
+#experienceHeader {
+    color: white;
+}
+
+#experienceDate  {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+#experienceRole {
     margin-top: 15px;
-    background-color: #d7ffe0 !important;
-    color: #018c0f;
-    width: auto;
-    height: 20px;
-}
-
-#experienceName {
+    color: #3269FF;
 
 }
 
-#experienceBody {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    color: #3B444B;
-}
-
-.experienceButton {
-    background-color: #3B444B;
-
-    width: 100px;
-    border-radius: 10px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
+#experienceResponsibilities {
     margin-top: 20px;
+}
+
+#experienceList {
+    margin-bottom: 10px;
+}
+
+#listItem {
+    margin-top: 15px;
+    font-size: 17px;
 }
