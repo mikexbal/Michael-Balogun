@@ -37,48 +37,7 @@ const Experience = () => {
                     </ul>
                     
                 </div>
-
-                <div id={styles.experienceCard}>
-                    <div id={styles.experienceHeader}>
-                        <h1>Company Name</h1>
-                        <p id={styles.experienceDate}>Jan 2025 - Jan 2025</p>
-                    </div>
-
-                    <h3 id={styles.experienceRole}>Role Position</h3>
-                    <h5 id={styles.experienceResponsibilities}>Responsibilities: </h5>
                    
-                    <ul>
-                        <li id={styles.listItem}> 
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            In scelerisque odio velit, 
-                            at ultrices est pharetra a.
-                        </li>
-                        
-                        <li id={styles.listItem}>
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            In scelerisque odio velit, 
-                            at ultrices est pharetra a.
-                        </li>
-                        
-                        <li id={styles.listItem}>
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            In scelerisque odio velit, 
-                            at ultrices est pharetra a.
-                        </li>
-                    </ul>
-                    
-                </div>
-
-                
-
-    
-
-        
-                
-                
             </section>
         </>
     );
