@@ -1,3 +1,70 @@
-.navLinks {
+
+#header {
+    background-color: #F6F5F1;
+    padding-top: 30px;
+    padding-bottom: 60px; 
+}
+#headerContainer {
+    justify-self: center;
+    width: 400px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#headerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-top: 25px;
+    list-style: none;
+}
+
+#headerLinks {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#introduction {
+    padding-top: 180px;
+    padding-left: 280px;
+    padding-bottom: 150px;
+}
+
+
+#introduction h1 {
+    color: #1C2445;
+    font-size: 50px;
+}
+
+
+#introduction h3 {
+    color: #3269FF;
+    font-size: 40px;
+}
+
+#introduction p {
+    color: #81807C;
+    width: 65%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#introduction button {
+    background-color:  #81807c78;
+    color: white;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+#introduction button:hover {
+    background-color:  #81807c;
     
 }
+
+
+
