@@ -1,22 +1,8 @@
 import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarText,
-} from 'reactstrap';
-
 import styles from './header.module.css';
 
 function Header(args) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
+  
   return (
     <>
         <section id={styles.header}>
@@ -34,7 +20,7 @@ function Header(args) {
                 <h1>Michael Balogun.</h1>
                 <h3>Aspiring Full-Stack Engineer</h3>
                 <p>
-                    Undergraduate Software Engineer at <span style={{ color: "#A41E35" }}>Temple University</span>
+                    Undergraduate Software Engineer at <span style={{ color: "#A41E35" }}>Temple University </span>
                     studying Information Science and Technology, passionate about bridging 
                     the gap between people and technology through thoughtful, 
                     user-centered solutions.
