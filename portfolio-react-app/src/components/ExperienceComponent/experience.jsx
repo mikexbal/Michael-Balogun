@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from './experience.module.css';
-import { Badge, Button, Popover, PopoverHeader, PopoverBody } from 'reactstrap';
 
 const Experience = () => {
     return (
