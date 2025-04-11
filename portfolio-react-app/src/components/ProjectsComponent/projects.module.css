@@ -1,18 +1,42 @@
-#projectsContainer {
+#projectsSection {
     background-color: #F6F5F0;
-    padding-bottom: 1700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 150px;
 }
+
+#projectCard {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+#projectTitle {
+    color: #3269FF;
+}
+
 #projectTechnologies {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style: none;
     padding-left: 0;
+}
 
+#projectDescription {
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 #technologyItem {
-    background-color: red;
+    background-color: #81807B;
+    color: #F6F7FF;
     text-align: center;
+
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
